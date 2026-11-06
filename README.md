@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Historia de la Costa Caribe</title>
+
 <meta name="description" content="Portal cultural e histórico de la Costa Caribe Sur de Nicaragua.">
 <style>
 :root{--navy:#123b2b;--teal:#1f6846;--gold:#d7b765;--cream:#f3f7ef;--ink:#18382a;--muted:#647568;--leaf:#2f8051;--mint:#e4f0e4}
