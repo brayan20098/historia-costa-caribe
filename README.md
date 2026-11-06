@@ -1,75 +1,1416 @@
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="Portal cultural e histórico de la Costa Caribe Sur de Nicaragua.">
+<title>Historia de la Costa Caribe</title>
+<meta name="description" content="Conoce la historia, cultura, tradiciones y naturaleza de la Costa Caribe de Nicaragua.">
+
 <style>
-:root{--navy:#123b2b;--teal:#1f6846;--gold:#d7b765;--cream:#f3f7ef;--ink:#18382a;--muted:#647568;--leaf:#2f8051;--mint:#e4f0e4}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,serif}button,a{cursor:pointer}a{text-decoration:none;color:inherit}.sans{font-family:Arial,sans-serif}.top{position:sticky;top:0;z-index:10;background:#123b2b;color:white;box-shadow:0 3px 18px #0002}.bar{max-width:1200px;margin:auto;padding:13px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font:700 12px Arial;letter-spacing:2px}.logo{background:var(--gold);color:#173b3d;border-radius:50%;width:40px;height:40px;display:grid;place-items:center;font-size:23px}.nav{display:flex;gap:18px;flex-wrap:wrap}.nav a{font:700 11px Arial;letter-spacing:.6px;color:#dce7e2}.nav a:hover{color:var(--gold)}.menu{display:none;background:none;border:0;color:white;font-size:25px}.hero{min-height:550px;background:radial-gradient(ellipse at 78% 22%,#d5bd6b55 0 8%,transparent 30%),linear-gradient(90deg,#09252bf2 0%,#09252bbd 58%,#09252b70),linear-gradient(135deg,#0b3b2b,#4f8052);display:flex;align-items:center;color:white}.hero-inner{max-width:1200px;width:100%;margin:auto;padding:80px 25px}.eyebrow{font:700 11px Arial;letter-spacing:3px;text-transform:uppercase;color:#bd9148}.hero .eyebrow{color:#e7c47d}.hero h1{font-size:clamp(42px,7vw,76px);font-weight:500;line-height:1.04;max-width:780px;margin:20px 0}.hero h1 em{color:#e7c47d}.hero p{font:16px/1.8 Arial;max-width:570px;color:#e1e9e5}.btn{display:inline-block;border:0;border-radius:30px;background:var(--gold);color:#17383b;padding:14px 22px;font:700 12px Arial;letter-spacing:1px;margin-top:15px}.wrap{max-width:1150px;margin:auto;padding:65px 24px}.center{text-align:center;max-width:700px;margin:0 auto 35px}.center h2,.section-title{font-size:38px;font-weight:500;margin:12px 0}.lead{font:15px/1.8 Arial;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;border:1px solid #e9e3d8;border-radius:15px;overflow:hidden;box-shadow:0 8px 25px #163d3510;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 15px 32px #163d3520}.card img{width:100%;height:205px;object-fit:cover;display:block;background:linear-gradient(135deg,#174d35,#8eaf70)}.image-unavailable{background:linear-gradient(135deg,#174d35,#8eaf70);min-height:205px;position:relative}.image-unavailable:after{content:"Bluefields · Caribe Sur";display:grid;place-items:center;min-height:205px;color:white;font:700 14px Arial;letter-spacing:1px}.card-body{padding:20px}.card h3{font-size:22px;margin:0 0 9px}.card p{font:14px/1.7 Arial;color:var(--muted);margin:0}.split{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}.split img{width:100%;height:350px;object-fit:cover;border-radius:16px}.quote{background:var(--navy);color:white;padding:32px;border-radius:17px;margin-top:45px;font-size:25px;line-height:1.5}.quote small{display:block;color:#d9bd85;font:11px Arial;letter-spacing:2px;margin-top:16px}.band{background:#e7f0e3}.timeline{border-left:2px solid var(--gold);padding-left:24px;margin:30px 0}.event{position:relative;margin-bottom:28px}.event:before{content:'';position:absolute;left:-31px;top:5px;width:12px;height:12px;border-radius:50%;background:var(--gold);border:3px solid var(--cream)}.year{font:700 11px Arial;letter-spacing:2px;color:#ad813d}.event h3{font-size:22px;margin:7px 0}.event p{font:14px/1.8 Arial;color:var(--muted);max-width:800px}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.gallery img{width:100%;height:220px;object-fit:cover;border-radius:12px}.gallery img:first-child{grid-column:span 2;grid-row:span 2;height:452px}.quiz{max-width:700px;margin:auto;background:white;border-radius:16px;padding:28px;border:1px solid #e5dfd3}.answers{display:grid;gap:10px;margin-top:20px}.answers button{padding:14px;border:1px solid #ddd5c8;border-radius:9px;text-align:left;background:#fff;font:14px Arial}.answers button:hover{background:#e8f2e7}.answers button:disabled{cursor:default}.foot{background:var(--navy);color:white;padding:45px 24px}.foot-inner{max-width:1150px;margin:auto}.foot p{font:13px/1.8 Arial;color:#c4d0ca;max-width:650px}.tag{display:inline-block;border:1px solid #d8d0c1;border-radius:30px;padding:8px 13px;font:12px Arial;margin:4px;color:#24543a}.notice{font:12px/1.7 Arial;color:#778;padding-top:15px}
+:root {
+  --navy: #123b2b;
+  --teal: #1f6846;
+  --gold: #d7b765;
+  --cream: #f3f7ef;
+  --ink: #18382a;
+  --muted: #647568;
+  --leaf: #2f8051;
+  --mint: #e4f0e4;
+}
 
-/* Respaldo visual: evita iconos de imagen rota y huecos vacios */
-.photo-placeholder{display:flex!important;align-items:flex-end;justify-content:flex-start;position:relative;overflow:hidden;width:100%;min-height:205px;height:205px;padding:18px;color:#fff;border-radius:0;background:radial-gradient(ellipse at 78% 22%,#a9c77c88 0 10%,transparent 34%),linear-gradient(145deg,#0c3e2d 0%,#28704a 48%,#91a96c 100%);font:700 14px/1.4 Arial,sans-serif;letter-spacing:.6px;text-shadow:0 2px 8px #09251dcc}
-.photo-placeholder:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(125deg,transparent 0 24px,#ffffff0b 25px 27px);}
-.photo-placeholder span{position:relative;z-index:1;border-left:3px solid #e3c477;padding-left:10px}
-.split>.photo-placeholder{height:350px;min-height:240px;border-radius:16px}
-.gallery>.photo-placeholder{height:220px;min-height:140px;border-radius:12px}
-.gallery>.photo-placeholder:first-child{grid-column:span 2;grid-row:span 2;height:452px}
-@media(max-width:850px){.gallery>.photo-placeholder:first-child{grid-column:span 2;grid-row:auto;height:250px}.gallery>.photo-placeholder{height:170px}}
-@media(max-width:520px){.split>.photo-placeholder{height:240px}.gallery>.photo-placeholder{height:140px}.gallery>.photo-placeholder:first-child{height:200px}}
-@media(max-width:850px){.nav{display:none;position:absolute;top:66px;left:0;right:0;background:#123b2b;padding:18px 22px;flex-direction:column}.nav.open{display:flex}.menu{display:block}.grid{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.gallery img:first-child{grid-column:span 2;grid-row:auto;height:250px}.gallery img{height:170px}.hero{min-height:510px}}
-@media(max-width:520px){.wrap{padding:48px 18px}.grid{grid-template-columns:1fr}.card img{height:220px}.hero-inner{padding:65px 20px}.hero h1{font-size:47px}.center h2,.section-title{font-size:31px}.gallery img{height:140px}.gallery img:first-child{height:200px}.split img{height:240px}}
-.place-card .card-body{min-height:190px}.place-card .tag{margin:14px 0 0;text-decoration:none}.place-card .tag:hover{background:#e7f0e3}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: Georgia, serif;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sans {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVEGACIÓN */
+
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--navy);
+  color: white;
+  box-shadow: 0 3px 18px #0002;
+}
+
+.bar {
+  max-width: 1200px;
+  margin: auto;
+  padding: 13px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font: 700 12px Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.logo {
+  background: var(--gold);
+  color: var(--navy);
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  font: 700 11px Arial, sans-serif;
+  letter-spacing: .6px;
+  color: #dce7e2;
+}
+
+.nav a:hover {
+  color: var(--gold);
+}
+
+.menu {
+  display: none;
+  background: none;
+  border: 0;
+  color: white;
+  font-size: 27px;
+}
+
+/* PORTADA */
+
+.hero {
+  min-height: 590px;
+  background:
+    linear-gradient(90deg, #09252bf2 0%, #09252bbd 55%, #09252b55 100%),
+    url("https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=2000&q=85");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hero-inner {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 80px 25px;
+}
+
+.eyebrow {
+  font: 700 11px Arial, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #bd9148;
+}
+
+.hero .eyebrow {
+  color: #e7c47d;
+}
+
+.hero h1 {
+  font-size: clamp(42px, 7vw, 76px);
+  font-weight: 500;
+  line-height: 1.04;
+  max-width: 780px;
+  margin: 20px 0;
+}
+
+.hero h1 em {
+  color: #e7c47d;
+}
+
+.hero p {
+  font: 16px/1.8 Arial, sans-serif;
+  max-width: 570px;
+  color: #e1e9e5;
+}
+
+.btn {
+  display: inline-block;
+  border: 0;
+  border-radius: 30px;
+  background: var(--gold);
+  color: #17383b;
+  padding: 14px 22px;
+  font: 700 12px Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+/* SECCIONES */
+
+.wrap {
+  max-width: 1150px;
+  margin: auto;
+  padding: 70px 24px;
+}
+
+.center {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 40px;
+}
+
+.center h2,
+.section-title {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 12px 0;
+}
+
+.lead {
+  font: 15px/1.8 Arial, sans-serif;
+  color: var(--muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e9e3d8;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px #163d3510;
+  transition: .2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 32px #163d3520;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  background: var(--mint);
+}
+
+.card-body {
+  padding: 22px;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin: 0 0 10px;
+}
+
+.card p {
+  font: 14px/1.8 Arial, sans-serif;
+  color: var(--muted);
+  margin: 0;
+}
+
+.band {
+  background: #e7f0e3;
+}
+
+/* HISTORIA */
+
+.timeline {
+  border-left: 2px solid var(--gold);
+  padding-left: 25px;
+  margin: 35px 0;
+}
+
+.event {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.event:before {
+  content: '';
+  position: absolute;
+  left: -32px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--gold);
+  border: 3px solid var(--cream);
+}
+
+.year {
+  font: 700 11px Arial, sans-serif;
+  letter-spacing: 2px;
+  color: #ad813d;
+}
+
+.event h3 {
+  font-size: 22px;
+  margin: 7px 0;
+}
+
+.event p {
+  font: 14px/1.8 Arial, sans-serif;
+  color: var(--muted);
+  max-width: 850px;
+}
+
+/* BLOQUES CON IMAGEN */
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 42px;
+  align-items: center;
+}
+
+.split img {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.split p {
+  font: 15px/1.9 Arial, sans-serif;
+  color: var(--muted);
+}
+
+.quote {
+  background: var(--navy);
+  color: white;
+  padding: 35px;
+  border-radius: 17px;
+  margin-top: 45px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.quote small {
+  display: block;
+  color: #d9bd85;
+  font: 11px Arial, sans-serif;
+  letter-spacing: 2px;
+  margin-top: 16px;
+}
+
+/* GALERÍA */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: .3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+}
+
+.gallery img:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+  height: 452px;
+}
+
+/* CUESTIONARIO */
+
+.quiz {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  border-radius: 16px;
+  padding: 28px;
+  border: 1px solid #e5dfd3;
+}
+
+.quiz h3 {
+  font-size: 23px;
+}
+
+.answers {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.answers button {
+  padding: 14px;
+  border: 1px solid #ddd5c8;
+  border-radius: 9px;
+  text-align: left;
+  background: white;
+  font: 14px Arial, sans-serif;
+}
+
+.answers button:hover {
+  background: #e8f2e7;
+}
+
+.answers button:disabled {
+  cursor: default;
+}
+
+#resultado {
+  font: 15px/1.7 Arial, sans-serif;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* PIE DE PÁGINA */
+
+.foot {
+  background: var(--navy);
+  color: white;
+  padding: 45px 24px;
+}
+
+.foot-inner {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.foot p {
+  font: 13px/1.8 Arial, sans-serif;
+  color: #c4d0ca;
+  max-width: 700px;
+}
+
+.foot a {
+  color: #e7c47d;
+}
+
+.notice {
+  font: 12px/1.7 Arial, sans-serif;
+  color: #778;
+  padding-top: 15px;
+}
+
+@media(max-width:850px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .split {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery img:first-child {
+    height: 300px;
+  }
+}
+
+@media(max-width:650px) {
+  .bar {
+    padding: 12px 16px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    background: var(--navy);
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .hero {
+    min-height: 540px;
+  }
+
+  .hero-inner {
+    padding: 65px 22px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .center h2,
+  .section-title {
+    font-size: 31px;
+  }
+
+  .wrap {
+    padding: 55px 19px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery img,
+  .gallery img:first-child {
+    height: 180px;
+  }
+
+  .gallery img:first-child {
+    grid-column: span 2;
+  }
+}
 </style>
 </head>
+
 <body>
-<header class="top"><div class="bar"><div class="brand"><div class="logo">✺</div><div>HISTORIA DE LA<br><span style="color:#d5ad68">COSTA CARIBE</span></div></div><button class="menu" id="menu">☰</button><nav class="nav" id="nav"><a href="#inicio">INICIO</a><a href="#historia">HISTORIA</a><a href="#pueblos">PUEBLOS</a><a href="#bluefields">BLUEFIELDS</a><a href="#cultura">CULTURA</a><a href="#sabores">GASTRONOMÍA</a><a href="#relatos">RELATOS</a><a href="#galeria">GALERÍA</a><a href="#trivia">TRIVIA</a></nav></div></header>
-<main>
-<section class="hero" id="inicio"><div class="hero-inner"><div class="eyebrow">COSTA CARIBE SUR · NICARAGUA</div><h1>Historia de la <em>Costa Caribe</em></h1><p>Un recorrido por nuestras raíces, nuestros pueblos, las tradiciones y la riqueza cultural que hacen único al Caribe nicaragüense.</p><a class="btn" href="#historia">EXPLORAR NUESTRA HISTORIA →</a></div></section>
-<section class="wrap"><div class="center"><div class="eyebrow">NUESTRAS RAÍCES</div><h2>Una tierra, muchas culturas</h2><p class="lead">El Caribe Sur es un territorio de encuentro entre pueblos, idiomas, memorias y formas de vivir que enriquecen nuestra identidad.</p></div><div class="grid">
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Olas%20del%20mar%20Caribe%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Olas del mar Caribe"><div class="card-body"><h3>Historia</h3><p>Conoce los procesos y acontecimientos que han marcado nuestra región.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22M%C3%BAsica%20y%20celebraci%C3%B3n%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Cpath%20d%3D%22M0%20390%20Q220%20330%20450%20390%20T900%20370%20V520%20H0Z%22%20fill%3D%22url%28%23land%29%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22210%22%20r%3D%22125%22%20fill%3D%22%23f0c86b%22%20opacity%3D%22.5%22%2F%3E%3Ccircle%20cx%3D%22280%22%20cy%3D%22240%22%20r%3D%2245%22%20fill%3D%22%23b64d3e%22%2F%3E%3Cpath%20d%3D%22M245%20285%20Q280%20250%20315%20285%20L355%20430%20L205%20430Z%22%20fill%3D%22%23b64d3e%22%2F%3E%3Cpath%20d%3D%22M220%20205%20Q280%20130%20340%20205%22%20fill%3D%22none%22%20stroke%3D%22%23174c35%22%20stroke-width%3D%2213%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22240%22%20r%3D%2245%22%20fill%3D%22%23275e8b%22%2F%3E%3Cpath%20d%3D%22M415%20285%20Q450%20250%20485%20285%20L525%20430%20L375%20430Z%22%20fill%3D%22%23275e8b%22%2F%3E%3Cpath%20d%3D%22M390%20205%20Q450%20130%20510%20205%22%20fill%3D%22none%22%20stroke%3D%22%23174c35%22%20stroke-width%3D%2213%22%2F%3E%3Ccircle%20cx%3D%22620%22%20cy%3D%22240%22%20r%3D%2245%22%20fill%3D%22%23e0a33e%22%2F%3E%3Cpath%20d%3D%22M585%20285%20Q620%20250%20655%20285%20L695%20430%20L545%20430Z%22%20fill%3D%22%23e0a33e%22%2F%3E%3Cpath%20d%3D%22M560%20205%20Q620%20130%20680%20205%22%20fill%3D%22none%22%20stroke%3D%22%23174c35%22%20stroke-width%3D%2213%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ECULTURA%20Y%20TRADICI%C3%93N%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Música y celebración"><div class="card-body"><h3>Tradiciones</h3><p>Celebraciones, música, danzas y saberes que pasan de generación en generación.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Comida%20tradicional%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22120%22%20r%3D%2262%22%20fill%3D%22url%28%23sun%29%22%2F%3E%3Cpath%20d%3D%22M0%20310%20Q160%20250%20320%20310%20T640%20300%20T900%20280%20V520%20H0Z%22%20fill%3D%22%233b8658%22%2F%3E%3Cpath%20d%3D%22M0%20350%20Q200%20310%20400%20360%20T900%20340%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%3Cpath%20d%3D%22M0%20415%20Q180%20380%20360%20420%20T720%20410%20T900%20405%22%20fill%3D%22none%22%20stroke%3D%22%23c1e6cf%22%20stroke-width%3D%226%22%20opacity%3D%22.7%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ESABORES%20DEL%20CARIBE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Comida tradicional"><div class="card-body"><h3>Gastronomía</h3><p>Sabores que cuentan historias y reúnen a las familias caribeñas.</p></div></article></div>
-<div class="split" style="margin-top:55px"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Costa%20tropical%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Costa tropical"><div><div class="eyebrow">NUESTRO PROPÓSITO</div><h2 class="section-title">La memoria que nos une</h2><p class="lead">Conocer nuestra historia es reconocer el valor de quienes nos precedieron. Cada relato, cada lengua y cada tradición representa una parte importante de nuestra herencia colectiva.</p><a class="btn" href="#pueblos">CONOCE NUESTROS PUEBLOS</a></div></div><div class="quote">“Un pueblo que conoce sus raíces comprende mejor quién es y hacia dónde quiere caminar”.<small>MEMORIA · CULTURA · IDENTIDAD</small></div></section>
-<section class="band" id="historia"><div class="wrap"><div class="eyebrow">CAPÍTULO 01 · MEMORIA</div><h2 class="section-title">Nuestra historia</h2><p class="lead">La historia de la Costa Caribe nicaragüense es una historia de pueblos originarios, encuentros culturales, intercambios y transformaciones.</p><div class="split" style="margin-top:28px"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Paisaje%20costero%20y%20vegetaci%C3%B3n%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Cpath%20d%3D%22M0%20360%20Q180%20260%20350%20350%20T700%20320%20T900%20340%20V520%20H0Z%22%20fill%3D%22url%28%23land%29%22%2F%3E%3Cpath%20d%3D%22M90%20430%20L90%20270%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%22220%22%20r%3D%22100%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%2265%22%20cy%3D%22200%22%20r%3D%2262.0%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M210%20430%20L210%20230%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22210%22%20cy%3D%22180%22%20r%3D%22120%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22160%22%20r%3D%2274.4%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M360%20430%20L360%20280%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22230%22%20r%3D%22105%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22335%22%20cy%3D%22210%22%20r%3D%2265.1%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M540%20430%20L540%20220%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22540%22%20cy%3D%22170%22%20r%3D%22135%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22515%22%20cy%3D%22150%22%20r%3D%2283.7%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M720%20430%20L720%20265%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22720%22%20cy%3D%22215%22%20r%3D%22115%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22695%22%20cy%3D%22195%22%20r%3D%2271.3%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M850%20430%20L850%20220%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22850%22%20cy%3D%22170%22%20r%3D%22100%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22825%22%20cy%3D%22150%22%20r%3D%2262.0%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ENATURALEZA%20DEL%20CARIBE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Paisaje costero y vegetación"><div class="timeline">
-<div class="event"><div class="year">ANTES DE LA COLONIZACIÓN</div><h3>Los pueblos originarios</h3><p>Diversos pueblos habitaban el territorio y desarrollaban sus propias formas de organización, conocimientos, lenguas y relación con la naturaleza.</p></div>
-<div class="event"><div class="year">SIGLOS XVII–XVIII</div><h3>Intercambios en el Caribe</h3><p>La región participó en redes de comercio y relaciones con navegantes y poblaciones del Caribe. Se intensificaron los intercambios culturales.</p></div>
-<div class="event"><div class="year">SIGLO XIX</div><h3>La Mosquitia y cambios políticos</h3><p>La Costa Caribe atravesó procesos políticos particulares, incluyendo el protectorado británico y cambios en su relación con Nicaragua.</p></div>
-<div class="event"><div class="year">1894</div><h3>Reincorporación a Nicaragua</h3><p>La intervención conocida como la Reincorporación de la Mosquitia marcó un cambio importante en la historia política regional.</p></div>
-<div class="event"><div class="year">1987</div><h3>Autonomía regional</h3><p>El Estatuto de Autonomía, Ley 28, estableció un marco especial de autonomía para las comunidades de la Costa Caribe.</p></div></div></div></div></section>
-<section class="wrap" id="pueblos"><div class="center"><div class="eyebrow">CAPÍTULO 02 · DIVERSIDAD</div><h2>Nuestros pueblos</h2><p class="lead">Cada pueblo conserva conocimientos, historias y expresiones culturales que forman parte de la riqueza del Caribe.</p></div><div class="grid">
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Bosque%20tropical%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Cpath%20d%3D%22M0%20360%20Q180%20260%20350%20350%20T700%20320%20T900%20340%20V520%20H0Z%22%20fill%3D%22url%28%23land%29%22%2F%3E%3Cpath%20d%3D%22M90%20430%20L90%20270%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%22220%22%20r%3D%22100%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%2265%22%20cy%3D%22200%22%20r%3D%2262.0%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M210%20430%20L210%20230%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22210%22%20cy%3D%22180%22%20r%3D%22120%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22160%22%20r%3D%2274.4%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M360%20430%20L360%20280%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22230%22%20r%3D%22105%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22335%22%20cy%3D%22210%22%20r%3D%2265.1%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M540%20430%20L540%20220%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22540%22%20cy%3D%22170%22%20r%3D%22135%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22515%22%20cy%3D%22150%22%20r%3D%2283.7%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M720%20430%20L720%20265%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22720%22%20cy%3D%22215%22%20r%3D%22115%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22695%22%20cy%3D%22195%22%20r%3D%2271.3%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M850%20430%20L850%20220%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22850%22%20cy%3D%22170%22%20r%3D%22100%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22825%22%20cy%3D%22150%22%20r%3D%2262.0%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ENATURALEZA%20DEL%20CARIBE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Bosque tropical"><div class="card-body"><h3>Miskitu</h3><p>Pueblo con una historia ligada a los ríos, el mar, la lengua y las comunidades del Caribe.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Bosque%20y%20naturaleza%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Cpath%20d%3D%22M0%20360%20Q180%20260%20350%20350%20T700%20320%20T900%20340%20V520%20H0Z%22%20fill%3D%22url%28%23land%29%22%2F%3E%3Cpath%20d%3D%22M90%20430%20L90%20270%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%22220%22%20r%3D%22100%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%2265%22%20cy%3D%22200%22%20r%3D%2262.0%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M210%20430%20L210%20230%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22210%22%20cy%3D%22180%22%20r%3D%22120%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22160%22%20r%3D%2274.4%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M360%20430%20L360%20280%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22230%22%20r%3D%22105%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22335%22%20cy%3D%22210%22%20r%3D%2265.1%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M540%20430%20L540%20220%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22540%22%20cy%3D%22170%22%20r%3D%22135%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22515%22%20cy%3D%22150%22%20r%3D%2283.7%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M720%20430%20L720%20265%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22720%22%20cy%3D%22215%22%20r%3D%22115%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22695%22%20cy%3D%22195%22%20r%3D%2271.3%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M850%20430%20L850%20220%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22850%22%20cy%3D%22170%22%20r%3D%22100%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22825%22%20cy%3D%22150%22%20r%3D%2262.0%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ENATURALEZA%20DEL%20CARIBE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Bosque y naturaleza"><div class="card-body"><h3>Mayangna</h3><p>Pueblo indígena con profundos conocimientos territoriales y una rica tradición cultural.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Naturaleza%20costera%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Naturaleza costera"><div class="card-body"><h3>Rama</h3><p>Pueblo indígena del Caribe Sur, con una historia vinculada a sus territorios y al entorno costero.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Mar%20Caribe%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Mar Caribe"><div class="card-body"><h3>Garífuna</h3><p>Pueblo afroindígena reconocido por su lengua, música, danza y memoria ancestral.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Comunidad%20reunida%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Comunidad reunida"><div class="card-body"><h3>Creole</h3><p>Una identidad afrocaribeña expresada en su lengua, gastronomía, música y vida comunitaria.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Mar%20y%20costa%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Mar y costa"><div class="card-body"><h3>Herencia compartida</h3><p>La convivencia regional también incluye intercambios entre comunidades y familias de distintos orígenes.</p></div></article></div><p class="notice">La composición y distribución de los pueblos es diversa y no se limita a una sola ciudad o región.</p></section>
 
-<section class="wrap" id="bluefields"><div class="center"><div class="eyebrow">CAPÍTULO 03 · NUESTRA CIUDAD</div><h2>Bluefields: rincones con historia</h2><p class="lead">Un recorrido visual por espacios que forman parte de la vida cotidiana, la memoria y la identidad de Bluefields.</p></div><div class="grid">
-<article class="card place-card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Malec%C3%B3n%20de%20Punta%20Fr%C3%ADa%2C%20Bluefields%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M0%20330%20H900%20V365%20H0Z%22%20fill%3D%22%23d8c59b%22%2F%3E%3Cpath%20d%3D%22M80%20330%20V280%20H150%20V330%20M170%20330%20V260%20H250%20V330%20M270%20330%20V290%20H335%20V330%22%20fill%3D%22%23f2e5c6%22%20stroke%3D%22%23916d4e%22%20stroke-width%3D%224%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBLUEFIELDS%20%C2%B7%20CARIBE%20SUR%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Malecón de Punta Fría, Bluefields"><div class="card-body"><h3>Malecón de Punta Fría</h3><p>Un espacio junto a la bahía donde las familias pasean, comparten y disfrutan del paisaje del Caribe.</p><a class="tag" href="https://www.canal4.com.ni/familias-de-bluefields-disfrutan-de-tardes-amenas-en-el-malecon-de-punta-fria/" target="_blank" rel="noopener">Ver referencia fotográfica ↗</a></div></article>
-<article class="card place-card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Puerto%20y%20bah%C3%ADa%20de%20Bluefields%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M0%20330%20H900%20V365%20H0Z%22%20fill%3D%22%23d8c59b%22%2F%3E%3Cpath%20d%3D%22M80%20330%20V280%20H150%20V330%20M170%20330%20V260%20H250%20V330%20M270%20330%20V290%20H335%20V330%22%20fill%3D%22%23f2e5c6%22%20stroke%3D%22%23916d4e%22%20stroke-width%3D%224%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBLUEFIELDS%20%C2%B7%20CARIBE%20SUR%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Puerto y bahía de Bluefields"><div class="card-body"><h3>Puerto y bahía</h3><p>El movimiento de embarcaciones conecta Bluefields con comunidades costeras y otros destinos del Caribe.</p><a class="tag" href="https://www.expedia.com/Bluefields.dx6350997" target="_blank" rel="noopener">Ver referencia fotográfica ↗</a></div></article>
-<article class="card place-card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Muelle%20municipal%20de%20Bluefields%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M0%20330%20H900%20V365%20H0Z%22%20fill%3D%22%23d8c59b%22%2F%3E%3Cpath%20d%3D%22M80%20330%20V280%20H150%20V330%20M170%20330%20V260%20H250%20V330%20M270%20330%20V290%20H335%20V330%22%20fill%3D%22%23f2e5c6%22%20stroke%3D%22%23916d4e%22%20stroke-width%3D%224%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBLUEFIELDS%20%C2%B7%20CARIBE%20SUR%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Muelle municipal de Bluefields"><div class="card-body"><h3>Muelle municipal</h3><p>Un punto importante para el transporte acuático, la pesca y las actividades de la ciudad.</p><a class="tag" href="https://radiocamoapa.com/2023/03/18/playas-de-bluefields-carecen-de-infraestructura-para-atraer-mas-turismo/" target="_blank" rel="noopener">Ver referencia fotográfica ↗</a></div></article>
-<article class="card place-card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Viviendas%20y%20embarcaciones%20en%20la%20ribera%20de%20Bluefields%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M0%20330%20H900%20V365%20H0Z%22%20fill%3D%22%23d8c59b%22%2F%3E%3Cpath%20d%3D%22M80%20330%20V280%20H150%20V330%20M170%20330%20V260%20H250%20V330%20M270%20330%20V290%20H335%20V330%22%20fill%3D%22%23f2e5c6%22%20stroke%3D%22%23916d4e%22%20stroke-width%3D%224%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBLUEFIELDS%20%C2%B7%20CARIBE%20SUR%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Viviendas y embarcaciones en la ribera de Bluefields"><div class="card-body"><h3>Vida junto al agua</h3><p>Las viviendas, los pequeños muelles y las lanchas muestran la relación diaria de muchas familias con el agua.</p><a class="tag" href="https://www.el19digital.com/articulos/ver/149666-el-progreso-se-hace-notar-en-el-caribe-sur-de-la-mano-del-buen-gobierno" target="_blank" rel="noopener">Ver referencia fotográfica ↗</a></div></article>
-<article class="card place-card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Parque%20Reyes%20de%20Bluefields%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M0%20330%20H900%20V365%20H0Z%22%20fill%3D%22%23d8c59b%22%2F%3E%3Cpath%20d%3D%22M80%20330%20V280%20H150%20V330%20M170%20330%20V260%20H250%20V330%20M270%20330%20V290%20H335%20V330%22%20fill%3D%22%23f2e5c6%22%20stroke%3D%22%23916d4e%22%20stroke-width%3D%224%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBLUEFIELDS%20%C2%B7%20CARIBE%20SUR%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Parque Reyes de Bluefields"><div class="card-body"><h3>Parque Reyes</h3><p>Un lugar de memoria local que reúne referencias históricas y elementos representativos de la identidad costeña.</p><a class="tag" href="https://ciudadcreativa.bluefields.gob.ni/circuito-creativo/" target="_blank" rel="noopener">Circuito Creativo ↗</a></div></article>
-<article class="card place-card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Espacios%20hist%C3%B3ricos%20de%20Bluefields%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M0%20330%20H900%20V365%20H0Z%22%20fill%3D%22%23d8c59b%22%2F%3E%3Cpath%20d%3D%22M80%20330%20V280%20H150%20V330%20M170%20330%20V260%20H250%20V330%20M270%20330%20V290%20H335%20V330%22%20fill%3D%22%23f2e5c6%22%20stroke%3D%22%23916d4e%22%20stroke-width%3D%224%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBLUEFIELDS%20%C2%B7%20CARIBE%20SUR%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Espacios históricos de Bluefields"><div class="card-body"><h3>Ruta de la Autonomía</h3><p>Un recorrido cultural que incluye el Palacio Municipal, la Catedral, la Iglesia Morava, museos y espacios culturales.</p><a class="tag" href="https://ciudadcreativa.bluefields.gob.ni/circuito-creativo/" target="_blank" rel="noopener">Conocer la ruta ↗</a></div></article></div><p class="notice">Las fotografías de esta sección enlazan a sus publicaciones de referencia. La disponibilidad puede depender de la conexión y del servidor donde están alojadas.</p></section>
-<section class="band" id="cultura"><div class="wrap"><div class="eyebrow">CAPÍTULO 03 · IDENTIDAD</div><h2 class="section-title">Cultura y tradiciones</h2><div class="grid">
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Artistas%20en%20una%20celebraci%C3%B3n%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Cpath%20d%3D%22M0%20390%20Q220%20330%20450%20390%20T900%20370%20V520%20H0Z%22%20fill%3D%22url%28%23land%29%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22210%22%20r%3D%22125%22%20fill%3D%22%23f0c86b%22%20opacity%3D%22.5%22%2F%3E%3Ccircle%20cx%3D%22280%22%20cy%3D%22240%22%20r%3D%2245%22%20fill%3D%22%23b64d3e%22%2F%3E%3Cpath%20d%3D%22M245%20285%20Q280%20250%20315%20285%20L355%20430%20L205%20430Z%22%20fill%3D%22%23b64d3e%22%2F%3E%3Cpath%20d%3D%22M220%20205%20Q280%20130%20340%20205%22%20fill%3D%22none%22%20stroke%3D%22%23174c35%22%20stroke-width%3D%2213%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22240%22%20r%3D%2245%22%20fill%3D%22%23275e8b%22%2F%3E%3Cpath%20d%3D%22M415%20285%20Q450%20250%20485%20285%20L525%20430%20L375%20430Z%22%20fill%3D%22%23275e8b%22%2F%3E%3Cpath%20d%3D%22M390%20205%20Q450%20130%20510%20205%22%20fill%3D%22none%22%20stroke%3D%22%23174c35%22%20stroke-width%3D%2213%22%2F%3E%3Ccircle%20cx%3D%22620%22%20cy%3D%22240%22%20r%3D%2245%22%20fill%3D%22%23e0a33e%22%2F%3E%3Cpath%20d%3D%22M585%20285%20Q620%20250%20655%20285%20L695%20430%20L545%20430Z%22%20fill%3D%22%23e0a33e%22%2F%3E%3Cpath%20d%3D%22M560%20205%20Q620%20130%20680%20205%22%20fill%3D%22none%22%20stroke%3D%22%23174c35%22%20stroke-width%3D%2213%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ECULTURA%20Y%20TRADICI%C3%93N%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Artistas en una celebración"><div class="card-body"><h3>Música y danza</h3><p>El Palo de Mayo, con raíces afrocaribeñas, es una expresión cultural muy reconocida en Bluefields.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Celebraci%C3%B3n%20comunitaria%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Cpath%20d%3D%22M0%20390%20Q220%20330%20450%20390%20T900%20370%20V520%20H0Z%22%20fill%3D%22url%28%23land%29%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22210%22%20r%3D%22125%22%20fill%3D%22%23f0c86b%22%20opacity%3D%22.5%22%2F%3E%3Ccircle%20cx%3D%22280%22%20cy%3D%22240%22%20r%3D%2245%22%20fill%3D%22%23b64d3e%22%2F%3E%3Cpath%20d%3D%22M245%20285%20Q280%20250%20315%20285%20L355%20430%20L205%20430Z%22%20fill%3D%22%23b64d3e%22%2F%3E%3Cpath%20d%3D%22M220%20205%20Q280%20130%20340%20205%22%20fill%3D%22none%22%20stroke%3D%22%23174c35%22%20stroke-width%3D%2213%22%2F%3E%3Ccircle%20cx%3D%22450%22%20cy%3D%22240%22%20r%3D%2245%22%20fill%3D%22%23275e8b%22%2F%3E%3Cpath%20d%3D%22M415%20285%20Q450%20250%20485%20285%20L525%20430%20L375%20430Z%22%20fill%3D%22%23275e8b%22%2F%3E%3Cpath%20d%3D%22M390%20205%20Q450%20130%20510%20205%22%20fill%3D%22none%22%20stroke%3D%22%23174c35%22%20stroke-width%3D%2213%22%2F%3E%3Ccircle%20cx%3D%22620%22%20cy%3D%22240%22%20r%3D%2245%22%20fill%3D%22%23e0a33e%22%2F%3E%3Cpath%20d%3D%22M585%20285%20Q620%20250%20655%20285%20L695%20430%20L545%20430Z%22%20fill%3D%22%23e0a33e%22%2F%3E%3Cpath%20d%3D%22M560%20205%20Q620%20130%20680%20205%22%20fill%3D%22none%22%20stroke%3D%22%23174c35%22%20stroke-width%3D%2213%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ECULTURA%20Y%20TRADICI%C3%93N%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Celebración comunitaria"><div class="card-body"><h3>Celebraciones</h3><p>Las fiestas comunitarias permiten compartir memorias, fortalecer vínculos y transmitir costumbres.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Libros%20y%20escritura%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Libros y escritura"><div class="card-body"><h3>Lenguas e identidad</h3><p>El inglés criollo, miskitu, rama, mayangna y garífuna representan parte del patrimonio lingüístico.</p></div></article></div></div></section>
-<section class="wrap" id="sabores"><div class="center"><div class="eyebrow">CAPÍTULO 04 · SABORES</div><h2>Gastronomía caribeña</h2><p class="lead">Los sabores de nuestra región cuentan historias de convivencia, creatividad y aprovechamiento de los productos del mar y la tierra.</p></div><div class="grid">
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Sopa%20de%20comida%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22120%22%20r%3D%2262%22%20fill%3D%22url%28%23sun%29%22%2F%3E%3Cpath%20d%3D%22M0%20310%20Q160%20250%20320%20310%20T640%20300%20T900%20280%20V520%20H0Z%22%20fill%3D%22%233b8658%22%2F%3E%3Cpath%20d%3D%22M0%20350%20Q200%20310%20400%20360%20T900%20340%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%3Cpath%20d%3D%22M0%20415%20Q180%20380%20360%20420%20T720%20410%20T900%20405%22%20fill%3D%22none%22%20stroke%3D%22%23c1e6cf%22%20stroke-width%3D%226%22%20opacity%3D%22.7%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ESABORES%20DEL%20CARIBE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Sopa de comida"><div class="card-body"><h3>Rondón</h3><p>Preparación tradicional con leche de coco, tubérculos y productos del mar o carne.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Arroz%20preparado%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22120%22%20r%3D%2262%22%20fill%3D%22url%28%23sun%29%22%2F%3E%3Cpath%20d%3D%22M0%20310%20Q160%20250%20320%20310%20T640%20300%20T900%20280%20V520%20H0Z%22%20fill%3D%22%233b8658%22%2F%3E%3Cpath%20d%3D%22M0%20350%20Q200%20310%20400%20360%20T900%20340%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%3Cpath%20d%3D%22M0%20415%20Q180%20380%20360%20420%20T720%20410%20T900%20405%22%20fill%3D%22none%22%20stroke%3D%22%23c1e6cf%22%20stroke-width%3D%226%22%20opacity%3D%22.7%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ESABORES%20DEL%20CARIBE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Arroz preparado"><div class="card-body"><h3>Rice and beans</h3><p>Arroz y frijoles preparados con sabores y técnicas caribeñas.</p></div></article>
-<article class="card"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Pan%20reci%C3%A9n%20horneado%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22120%22%20r%3D%2262%22%20fill%3D%22url%28%23sun%29%22%2F%3E%3Cpath%20d%3D%22M0%20310%20Q160%20250%20320%20310%20T640%20300%20T900%20280%20V520%20H0Z%22%20fill%3D%22%233b8658%22%2F%3E%3Cpath%20d%3D%22M0%20350%20Q200%20310%20400%20360%20T900%20340%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%3Cpath%20d%3D%22M0%20415%20Q180%20380%20360%20420%20T720%20410%20T900%20405%22%20fill%3D%22none%22%20stroke%3D%22%23c1e6cf%22%20stroke-width%3D%226%22%20opacity%3D%22.7%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ESABORES%20DEL%20CARIBE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Pan recién horneado"><div class="card-body"><h3>Pan de coco</h3><p>Un pan tradicional cuyo aroma y sabor evocan la cocina regional.</p></div></article></div></section>
-<section class="band" id="relatos"><div class="wrap"><div class="eyebrow">CAPÍTULO 05 · TRADICIÓN ORAL</div><h2 class="section-title">Leyendas e historias</h2><div class="split"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Mar%20en%20la%20costa%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Mar en la costa"><div><h3 style="font-size:27px">El misterio del mar Caribe</h3><p class="lead">En las comunidades costeras, el mar ha sido mucho más que un paisaje: es fuente de alimento, camino de comunicación y protagonista de relatos populares. Las historias sobre sus misterios recuerdan el respeto que las comunidades mantienen por la naturaleza.</p><p class="notice">Relato introductorio inspirado en la tradición oral; no es una leyenda histórica documentada.</p></div></div></div></section>
-<section class="wrap" id="galeria"><div class="center"><div class="eyebrow">CAPÍTULO 06 · IMÁGENES</div><h2>Galería del Caribe</h2><p class="lead">Paisajes tropicales que evocan la belleza natural de nuestra región.</p></div><div class="gallery">
-<img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Oc%C3%A9ano%20azul%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Océano azul"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Olas%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Olas"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Vegetaci%C3%B3n%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Cpath%20d%3D%22M0%20360%20Q180%20260%20350%20350%20T700%20320%20T900%20340%20V520%20H0Z%22%20fill%3D%22url%28%23land%29%22%2F%3E%3Cpath%20d%3D%22M90%20430%20L90%20270%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%22220%22%20r%3D%22100%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%2265%22%20cy%3D%22200%22%20r%3D%2262.0%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M210%20430%20L210%20230%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22210%22%20cy%3D%22180%22%20r%3D%22120%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22160%22%20r%3D%2274.4%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M360%20430%20L360%20280%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22230%22%20r%3D%22105%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22335%22%20cy%3D%22210%22%20r%3D%2265.1%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M540%20430%20L540%20220%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22540%22%20cy%3D%22170%22%20r%3D%22135%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22515%22%20cy%3D%22150%22%20r%3D%2283.7%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M720%20430%20L720%20265%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22720%22%20cy%3D%22215%22%20r%3D%22115%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22695%22%20cy%3D%22195%22%20r%3D%2271.3%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M850%20430%20L850%20220%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22850%22%20cy%3D%22170%22%20r%3D%22100%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22825%22%20cy%3D%22150%22%20r%3D%2262.0%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ENATURALEZA%20DEL%20CARIBE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Vegetación"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Bosque%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Cpath%20d%3D%22M0%20360%20Q180%20260%20350%20350%20T700%20320%20T900%20340%20V520%20H0Z%22%20fill%3D%22url%28%23land%29%22%2F%3E%3Cpath%20d%3D%22M90%20430%20L90%20270%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%22220%22%20r%3D%22100%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%2265%22%20cy%3D%22200%22%20r%3D%2262.0%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M210%20430%20L210%20230%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22210%22%20cy%3D%22180%22%20r%3D%22120%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22160%22%20r%3D%2274.4%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M360%20430%20L360%20280%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22360%22%20cy%3D%22230%22%20r%3D%22105%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22335%22%20cy%3D%22210%22%20r%3D%2265.1%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M540%20430%20L540%20220%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22540%22%20cy%3D%22170%22%20r%3D%22135%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22515%22%20cy%3D%22150%22%20r%3D%2283.7%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M720%20430%20L720%20265%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22720%22%20cy%3D%22215%22%20r%3D%22115%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22695%22%20cy%3D%22195%22%20r%3D%2271.3%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Cpath%20d%3D%22M850%20430%20L850%20220%22%20stroke%3D%22%23704c32%22%20stroke-width%3D%2220%22%2F%3E%3Ccircle%20cx%3D%22850%22%20cy%3D%22170%22%20r%3D%22100%22%20fill%3D%22%23276b42%22%2F%3E%3Ccircle%20cx%3D%22825%22%20cy%3D%22150%22%20r%3D%2262.0%22%20fill%3D%22%234f9654%22%20opacity%3D%22.8%22%2F%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3ENATURALEZA%20DEL%20CARIBE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Bosque"><img loading="eager" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20900%20520%22%20role%3D%22img%22%20aria-label%3D%22Paisaje%20de%20costa%22%3E%3Cdefs%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sky%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23a9d6b0%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e6e7b9%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22water%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%234aa58a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23145b50%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22land%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2372a95e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23174c35%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3ClinearGradient%20id%3D%22sun%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23f5d17a%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e5a94e%22%2F%3E%3C%2FlinearGradient%3E%0A%20%20%20%20%3C%2Fdefs%3E%3Crect%20width%3D%22900%22%20height%3D%22520%22%20fill%3D%22url%28%23sky%29%22%2F%3E%3Ccircle%20cx%3D%22730%22%20cy%3D%22115%22%20r%3D%2254%22%20fill%3D%22url%28%23sun%29%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20300%20Q150%20245%20290%20300%20T580%20290%20T900%20280%20V520%20H0Z%22%20fill%3D%22%23367b50%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20335%20Q180%20290%20340%20340%20T650%20330%20T900%20320%20V520%20H0Z%22%20fill%3D%22url%28%23water%29%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20385%20Q160%20360%20320%20390%20T650%20385%20T900%20380%22%20fill%3D%22none%22%20stroke%3D%22%23b9e1bd%22%20stroke-width%3D%225%22%20opacity%3D%22.65%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0%20260%20Q120%20215%20250%20260%20L300%20310%20L0%20330Z%22%20fill%3D%22%231b593d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M520%20285%20L565%20225%20L610%20285Z%20M600%20292%20L655%20210%20L710%20292Z%20M690%20286%20L735%20235%20L780%20286Z%22%20fill%3D%22%23276d48%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23f1d49b%22%3E%3Crect%20x%3D%22115%22%20y%3D%22245%22%20width%3D%2255%22%20height%3D%2245%22%2F%3E%3Crect%20x%3D%22185%22%20y%3D%22230%22%20width%3D%2248%22%20height%3D%2255%22%2F%3E%3Crect%20x%3D%22250%22%20y%3D%22260%22%20width%3D%2242%22%20height%3D%2235%22%2F%3E%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23b66f4d%22%3E%3Cpath%20d%3D%22M105%20248l38-30%2038%2030z%20M176%20233l33-28%2033%2028z%20M243%20263l28-22%2029%2022z%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2225%22%20y%3D%2225%22%20width%3D%22850%22%20height%3D%22470%22%20rx%3D%2224%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%22465%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2225%22%20font-weight%3D%22700%22%20letter-spacing%3D%223%22%20fill%3D%22%23fff%22%20stroke%3D%22%23143b2b%22%20stroke-width%3D%221.2%22%20paint-order%3D%22stroke%22%3EBAH%C3%8DA%20DE%20BLUEFIELDS%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Paisaje de costa"></div><p class="notice">Imágenes ilustrativas de paisajes tropicales; la galería definitiva debe incorporar fotografías auténticas de Bluefields y las comunidades de la región.</p></section>
-<section class="band" id="trivia"><div class="wrap"><div class="center"><div class="eyebrow">CAPÍTULO 07 · APRENDE JUGANDO</div><h2>¿Cuánto sabes del Caribe?</h2><p class="lead">Pon a prueba tus conocimientos con esta trivia cultural.</p></div><div class="quiz"><div class="sans" style="display:flex;justify-content:space-between;font-size:12px;color:#9a783f;font-weight:bold"><span id="counter">PREGUNTA 1 DE 4</span><span id="score">Puntos: 0</span></div><h3 id="question" style="font-size:23px;line-height:1.4">¿En qué año se aprobó el Estatuto de Autonomía de la Costa Caribe?</h3><div class="answers" id="answers"></div><p class="sans" id="feedback" aria-live="polite"></p><button class="btn" id="next" style="display:none">SIGUIENTE →</button></div></div></section>
-</main>
-<footer class="foot"><div class="foot-inner"><div class="eyebrow" style="color:#dfbd7c">NUESTRA MEMORIA, NUESTRO LEGADO</div><h2 style="font-size:30px;font-weight:500">Historia de la Costa Caribe</h2><p>Un espacio educativo para conocer, valorar y preservar la diversidad cultural de la Costa Caribe Sur de Nicaragua.</p><div class="sans" style="border-top:1px solid #496268;padding-top:18px;margin-top:25px;font-size:12px;color:#aebdb7">Proyecto cultural y educativo · Bluefields, Nicaragua</div></div></footer>
+<header class="top">
+  <div class="bar">
+
+    <div class="brand">
+      <div class="logo">✺</div>
+      <div>
+        HISTORIA DE LA<br>
+        <span style="color:#d5ad68">COSTA CARIBE</span>
+      </div>
+    </div>
+
+    <button class="menu" id="menu" aria-label="Abrir menú">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#inicio">INICIO</a>
+      <a href="#historia">HISTORIA</a>
+      <a href="#cultura">CULTURA</a>
+      <a href="#naturaleza">NATURALEZA</a>
+      <a href="#gastronomia">GASTRONOMÍA</a>
+      <a href="#galeria">GALERÍA</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- PORTADA -->
+
+<section class="hero" id="inicio">
+  <div class="hero-inner">
+
+    <div class="eyebrow">Nicaragua · Región Autónoma de la Costa Caribe Sur</div>
+
+    <h1>
+      Historia y cultura de la
+      <em>Costa Caribe</em>
+    </h1>
+
+    <p>
+      Un recorrido por nuestras raíces, nuestra historia, nuestras
+      tradiciones y la riqueza natural de una región donde conviven
+      diferentes culturas y pueblos.
+    </p>
+
+    <a href="#historia" class="btn">DESCUBRIR NUESTRA HISTORIA</a>
+
+  </div>
+</section>
+
+<!-- INTRODUCCIÓN -->
+
+<section class="wrap">
+
+  <div class="center">
+    <div class="eyebrow">Nuestra identidad</div>
+    <h2>Una región llena de historia y diversidad</h2>
+
+    <p class="lead">
+      La Costa Caribe de Nicaragua es una región de gran riqueza
+      cultural, histórica y natural. Sus comunidades conservan
+      tradiciones, lenguas, conocimientos y costumbres que forman
+      parte de la identidad del país.
+    </p>
+  </div>
+
+  <div class="grid">
+
+    <article class="card">
+      <img
+        src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=85"
+        alt="Bosque tropical"
+        loading="lazy">
+
+      <div class="card-body">
+        <h3>Naturaleza</h3>
+        <p>
+          Bosques tropicales, ríos, lagunas, playas y una gran variedad
+          de especies forman parte del patrimonio natural caribeño.
+        </p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img
+        src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=900&q=85"
+        alt="Mar y costa"
+        loading="lazy">
+
+      <div class="card-body">
+        <h3>Territorio</h3>
+        <p>
+          El mar Caribe, las comunidades costeras y los paisajes
+          naturales han influido en la vida y las actividades
+          de sus habitantes.
+        </p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img
+        src="https://s3.laprensani.com/wp-content/uploads/2026/09/Herencia-Nicaraguense-Miami-Marlins-celebracion-1000x600.jpg"
+        alt="Celebración de la herencia nicaragüense"
+        loading="lazy">
+
+      <div class="card-body">
+        <h3>Identidad cultural</h3>
+        <p>
+          La música, las celebraciones, las expresiones artísticas
+          y las tradiciones mantienen viva la identidad de los
+          pueblos caribeños.
+        </p>
+      </div>
+    </article>
+
+  </div>
+
+</section>
+
+<!-- HISTORIA -->
+
+<section class="band" id="historia">
+  <div class="wrap">
+
+    <div class="center">
+      <div class="eyebrow">Memoria histórica</div>
+      <h2>Historia de la Costa Caribe</h2>
+
+      <p class="lead">
+        La historia de la Costa Caribe nicaragüense está marcada
+        por la presencia de pueblos originarios, la llegada de
+        europeos, la influencia africana y el desarrollo de sus
+        propias comunidades.
+      </p>
+    </div>
+
+    <div class="split">
+
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1100&q=85"
+          alt="Paisaje natural de Centroamérica"
+          loading="lazy">
+      </div>
+
+      <div>
+        <div class="eyebrow">Un pasado que nos identifica</div>
+
+        <h2 class="section-title">Raíces de nuestra región</h2>
+
+        <p>
+          Antes de la llegada de los europeos, diferentes pueblos
+          indígenas habitaban el territorio caribeño. Entre ellos
+          se encontraban comunidades miskitas, mayangnas y ramas,
+          con sus propias formas de organización, conocimientos
+          y tradiciones.
+        </p>
+
+        <p>
+          Con el paso del tiempo, la región recibió influencias
+          europeas y africanas. Estas relaciones históricas
+          contribuyeron a formar una sociedad multicultural
+          con características propias.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="timeline">
+
+      <div class="event">
+        <div class="year">ANTES DEL SIGLO XVI</div>
+        <h3>Los pueblos originarios</h3>
+        <p>
+          Diferentes comunidades indígenas habitaban la región.
+          Desarrollaron conocimientos sobre la naturaleza,
+          la pesca, la agricultura y la vida comunitaria.
+        </p>
+      </div>
+
+      <div class="event">
+        <div class="year">SIGLOS XVI AL XVIII</div>
+        <h3>Contacto con europeos</h3>
+        <p>
+          La presencia europea y las relaciones comerciales
+          transformaron distintos aspectos de la vida regional.
+          También aumentaron los contactos entre pueblos
+          indígenas, europeos y africanos.
+        </p>
+      </div>
+
+      <div class="event">
+        <div class="year">SIGLO XIX</div>
+        <h3>El desarrollo de la región caribeña</h3>
+        <p>
+          La Costa Caribe vivió importantes cambios políticos,
+          sociales y económicos. Las relaciones entre la región
+          y el resto de Nicaragua continuaron transformándose.
+        </p>
+      </div>
+
+      <div class="event">
+        <div class="year">1894</div>
+        <h3>Reincorporación de la Mosquitia</h3>
+        <p>
+          El gobierno de Nicaragua incorporó el territorio
+          de la Mosquitia al Estado nicaragüense, en un proceso
+          histórico que produjo cambios en la organización
+          política y administrativa de la región.
+        </p>
+      </div>
+
+      <div class="event">
+        <div class="year">1987</div>
+        <h3>Autonomía de la Costa Caribe</h3>
+        <p>
+          Se aprobó el Estatuto de Autonomía mediante la Ley 28,
+          que reconoce derechos políticos, sociales, económicos
+          y culturales de los pueblos de las regiones autónomas.
+        </p>
+      </div>
+
+      <div class="event">
+        <div class="year">ACTUALIDAD</div>
+        <h3>Una región multicultural</h3>
+        <p>
+          La Costa Caribe continúa desarrollándose y conservando
+          sus tradiciones, lenguas, conocimientos y diversidad
+          cultural.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="quote">
+      “Conocer nuestra historia es valorar nuestras raíces
+      y comprender la riqueza de nuestra identidad.”
+      <small>HISTORIA DE LA COSTA CARIBE</small>
+    </div>
+
+  </div>
+</section>
+
+<!-- BLUEFIELDS -->
+
+<section class="wrap">
+
+  <div class="split">
+
+    <div>
+      <div class="eyebrow">Nuestra ciudad</div>
+
+      <h2 class="section-title">Bluefields, corazón del Caribe Sur</h2>
+
+      <p>
+        Bluefields es la cabecera de la Región Autónoma de la
+        Costa Caribe Sur de Nicaragua. Es una ciudad reconocida
+        por su diversidad cultural, su historia y su relación
+        con el mar Caribe.
+      </p>
+
+      <p>
+        En sus comunidades conviven diferentes expresiones
+        culturales y lingüísticas. Sus habitantes mantienen
+        tradiciones que se reflejan en la música, la gastronomía,
+        las celebraciones y la vida cotidiana.
+      </p>
+
+      <p>
+        Su ubicación costera ha influido en el comercio,
+        la pesca y las actividades económicas de la región.
+      </p>
+
+    </div>
+
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1100&q=85"
+        alt="Paisaje de costa tropical"
+        loading="lazy">
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CULTURA -->
+
+<section class="band" id="cultura">
+  <div class="wrap">
+
+    <div class="center">
+      <div class="eyebrow">Tradiciones y raíces</div>
+      <h2>La riqueza de nuestra cultura</h2>
+
+      <p class="lead">
+        La cultura de la Costa Caribe se caracteriza por
+        su diversidad de pueblos, lenguas, expresiones
+        artísticas y costumbres.
+      </p>
+    </div>
+
+    <div class="grid">
+
+      <article class="card">
+        <img
+          src="https://images.unsplash.com/photo-1504609813442-a8924e83f76e?auto=format&fit=crop&w=900&q=85"
+          alt="Celebración cultural"
+          loading="lazy">
+
+        <div class="card-body">
+          <h3>Celebraciones</h3>
+          <p>
+            Las fiestas comunitarias reúnen a las familias
+            y permiten compartir costumbres, música, bailes
+            y expresiones tradicionales.
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=85"
+          alt="Música y expresión artística"
+          loading="lazy">
+
+        <div class="card-body">
+          <h3>Música y danza</h3>
+          <p>
+            La música y la danza son importantes formas
+            de expresión cultural. Reflejan la historia,
+            la convivencia y la identidad de los pueblos.
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=85"
+          alt="Personas compartiendo alimentos"
+          loading="lazy">
+
+        <div class="card-body">
+          <h3>Vida comunitaria</h3>
+          <p>
+            La convivencia, la solidaridad y el respeto
+            a las costumbres de cada comunidad son parte
+            de la identidad caribeña.
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="quote">
+      La diversidad cultural es una de las mayores riquezas
+      de la Costa Caribe de Nicaragua.
+      <small>IDENTIDAD Y PATRIMONIO</small>
+    </div>
+
+  </div>
+</section>
+
+<!-- PUEBLOS -->
+
+<section class="wrap">
+
+  <div class="center">
+    <div class="eyebrow">Diversidad humana</div>
+    <h2>Pueblos y comunidades</h2>
+
+    <p class="lead">
+      La Costa Caribe es hogar de diferentes pueblos
+      y comunidades que conservan su identidad,
+      sus conocimientos y sus tradiciones.
+    </p>
+  </div>
+
+  <div class="grid">
+
+    <article class="card">
+      <img
+        src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=85"
+        alt="Retrato de una comunidad"
+        loading="lazy">
+
+      <div class="card-body">
+        <h3>Pueblo Miskitu</h3>
+        <p>
+          El pueblo Miskitu posee una historia y una lengua
+          propias. Sus tradiciones están relacionadas con
+          la vida comunitaria y el entorno natural.
+        </p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img
+        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=85"
+        alt="Bosque tropical"
+        loading="lazy">
+
+      <div class="card-body">
+        <h3>Pueblo Mayangna</h3>
+        <p>
+          El pueblo Mayangna conserva conocimientos
+          tradicionales y una estrecha relación con
+          los bosques y territorios donde habita.
+        </p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img
+        src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=85"
+        alt="Paisaje natural"
+        loading="lazy">
+
+      <div class="card-body">
+        <h3>Pueblo Rama</h3>
+        <p>
+          El pueblo Rama forma parte de la diversidad
+          histórica y cultural del Caribe nicaragüense.
+          Su identidad está vinculada a sus territorios
+          y tradiciones.
+        </p>
+      </div>
+    </article>
+
+  </div>
+
+  <p class="notice">
+    También forman parte de la diversidad cultural regional
+    las comunidades afrodescendientes, creoles y garífunas.
+  </p>
+
+</section>
+
+<!-- NATURALEZA -->
+
+<section class="band" id="naturaleza">
+  <div class="wrap">
+
+    <div class="center">
+      <div class="eyebrow">Patrimonio natural</div>
+      <h2>La naturaleza del Caribe</h2>
+
+      <p class="lead">
+        La región cuenta con ecosistemas de gran importancia
+        para la biodiversidad y el bienestar de las comunidades.
+      </p>
+    </div>
+
+    <div class="grid">
+
+      <article class="card">
+        <img
+          src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85"
+          alt="Bosque tropical"
+          loading="lazy">
+
+        <div class="card-body">
+          <h3>Bosques</h3>
+          <p>
+            Los bosques tropicales albergan numerosas especies
+            de plantas y animales. También ayudan a proteger
+            los suelos y las fuentes de agua.
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=900&q=85"
+          alt="Río entre vegetación"
+          loading="lazy">
+
+        <div class="card-body">
+          <h3>Ríos y lagunas</h3>
+          <p>
+            Los ríos y lagunas son importantes para el transporte,
+            la pesca, la biodiversidad y las actividades
+            cotidianas de las comunidades.
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img
+          src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=85"
+          alt="Mar y playa"
+          loading="lazy">
+
+        <div class="card-body">
+          <h3>Playas y costas</h3>
+          <p>
+            Las zonas costeras son espacios naturales de gran
+            valor ambiental, social y económico para la región.
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- GASTRONOMÍA -->
+
+<section class="wrap" id="gastronomia">
+
+  <div class="center">
+    <div class="eyebrow">Sabores del Caribe</div>
+    <h2>Gastronomía tradicional</h2>
+
+    <p class="lead">
+      La cocina caribeña se distingue por sus sabores,
+      ingredientes locales y recetas transmitidas
+      entre generaciones.
+    </p>
+  </div>
+
+  <div class="grid">
+
+    <article class="card">
+      <img
+        src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=900&q=85"
+        alt="Plato de comida"
+        loading="lazy">
+
+      <div class="card-body">
+        <h3>Rundown</h3>
+        <p>
+          Es una preparación tradicional caribeña que suele
+          combinar leche de coco, pescado o mariscos y otros
+          ingredientes según la receta familiar.
+        </p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img
+        src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
+        alt="Comida tradicional"
+        loading="lazy">
+
+      <div class="card-body">
+        <h3>Rice and Beans</h3>
+        <p>
+          Arroz y frijoles preparados tradicionalmente
+          con leche de coco y condimentos que aportan
+          un sabor característico.
+        </p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img
+        src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=85"
+        alt="Preparación de alimentos"
+        loading="lazy">
+
+      <div class="card-body">
+        <h3>Patí</h3>
+        <p>
+          Es una preparación de masa rellena, conocida
+          por su sabor condimentado y su presencia
+          en la tradición gastronómica caribeña.
+        </p>
+      </div>
+    </article>
+
+  </div>
+
+</section>
+
+<!-- IMPORTANCIA -->
+
+<section class="band">
+  <div class="wrap">
+
+    <div class="split">
+
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1100&q=85"
+          alt="Naturaleza y biodiversidad"
+          loading="lazy">
+      </div>
+
+      <div>
+        <div class="eyebrow">Nuestro compromiso</div>
+
+        <h2 class="section-title">
+          Cuidar nuestro patrimonio
+        </h2>
+
+        <p>
+          La historia, la cultura y la naturaleza de la Costa
+          Caribe forman parte del patrimonio de Nicaragua.
+          Protegerlas es una responsabilidad compartida
+          entre las comunidades y las nuevas generaciones.
+        </p>
+
+        <p>
+          Es importante promover el respeto a las culturas,
+          conservar los recursos naturales y transmitir
+          los conocimientos tradicionales.
+        </p>
+
+        <p>
+          Conocer nuestra región nos ayuda a valorar
+          su diversidad y a construir un futuro
+          donde las tradiciones sigan vivas.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- GALERÍA -->
+
+<section class="wrap" id="galeria">
+
+  <div class="center">
+    <div class="eyebrow">Un recorrido visual</div>
+    <h2>Galería de la Costa Caribe</h2>
+
+    <p class="lead">
+      Imágenes ilustrativas de paisajes, naturaleza,
+      mar y cultura caribeña.
+    </p>
+  </div>
+
+  <div class="gallery">
+
+    <img
+      src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=85"
+      alt="Mar Caribe"
+      loading="lazy">
+
+    <img
+      src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85"
+      alt="Bosque tropical"
+      loading="lazy">
+
+    <img
+      src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=900&q=85"
+      alt="Costa tropical"
+      loading="lazy">
+
+    <img
+      src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=85"
+      alt="Paisaje natural"
+      loading="lazy">
+
+    <img
+      src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=85"
+      alt="Vegetación tropical"
+      loading="lazy">
+
+    <img
+      src="https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=900&q=85"
+      alt="Río y vegetación"
+      loading="lazy">
+
+  </div>
+
+</section>
+
+<!-- CUESTIONARIO -->
+
+<section class="band">
+  <div class="wrap">
+
+    <div class="center">
+      <div class="eyebrow">Pon a prueba tus conocimientos</div>
+      <h2>¿Cuánto aprendiste?</h2>
+
+      <p class="lead">
+        Responde estas preguntas sobre la historia
+        y cultura de la Costa Caribe.
+      </p>
+    </div>
+
+    <div class="quiz">
+
+      <h3 id="pregunta">1. ¿Cuál es la cabecera de la Costa Caribe Sur?</h3>
+
+      <div class="answers" id="respuestas">
+
+        <button onclick="responder(0)">A. Bluefields</button>
+        <button onclick="responder(1)">B. Managua</button>
+        <button onclick="responder(2)">C. León</button>
+
+      </div>
+
+      <div id="resultado"></div>
+
+      <button class="btn" id="siguiente" onclick="siguientePregunta()" style="display:none">
+        SIGUIENTE PREGUNTA
+      </button>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- PIE DE PÁGINA -->
+
+<footer class="foot">
+  <div class="foot-inner">
+
+    <div class="brand">
+      <div class="logo">✺</div>
+      <div>
+        HISTORIA DE LA<br>
+        <span style="color:#d5ad68">COSTA CARIBE</span>
+      </div>
+    </div>
+
+    <h2>Conocer nuestras raíces es valorar nuestra identidad.</h2>
+
+    <p>
+      Este sitio web es un proyecto educativo dedicado
+      a compartir información sobre la historia, cultura,
+      tradiciones y naturaleza de la Costa Caribe
+      de Nicaragua.
+    </p>
+
+    <p>
+      <strong>Fuentes de consulta:</strong><br>
+      Estatuto de Autonomía de las Regiones de la Costa Caribe
+      de Nicaragua, Ley No. 28.<br>
+      Información histórica y cultural de las comunidades
+      de la Costa Caribe.<br>
+      Materiales educativos y fuentes institucionales
+      de Nicaragua.
+    </p>
+
+    <p>
+      <strong>Créditos de imágenes:</strong><br>
+      Fotografías ilustrativas alojadas en
+      <a href="https://unsplash.com/" target="_blank" rel="noopener">Unsplash</a>.<br>
+      Imagen de herencia nicaragüense:
+      <a href="https://www.laprensani.com/" target="_blank" rel="noopener">La Prensa</a>.
+      El uso de imágenes de terceros debe respetar sus licencias
+      y condiciones de autorización.
+    </p>
+
+    <p class="notice" style="color:#c4d0ca">
+      Las fotografías ilustrativas no representan necesariamente
+      lugares específicos de Bluefields. El contenido de esta
+      página tiene fines educativos.
+    </p>
+
+    <p>© 2026 Historia de la Costa Caribe · Nicaragua</p>
+
+  </div>
+</footer>
+
 <script>
-// Todas las imágenes están integradas dentro del propio HTML; no dependen de servidores externos.
-// En iPhone se muestran inmediatamente, incluso sin conexión.
+/* MENÚ MÓVIL */
 
-document.querySelectorAll('.hero img, .wrap img, #historia img').forEach(img=>img.loading='eager');
-document.getElementById('menu').onclick=()=>document.getElementById('nav').classList.toggle('open');document.querySelectorAll('.nav a').forEach(a=>a.onclick=()=>document.getElementById('nav').classList.remove('open'));
-const qs=[{q:'¿En qué año se aprobó el Estatuto de Autonomía de la Costa Caribe?',a:['1987','1979','1995'],c:0,x:'La Ley 28 fue aprobada en 1987.'},{q:'¿Qué celebración tradicional es muy conocida en Bluefields?',a:['Palo de Mayo','Inti Raymi','La Gritería'],c:0,x:'El Palo de Mayo es una importante expresión cultural afrocaribeña.'},{q:'¿Cuál de estos pueblos es originario de la Costa Caribe?',a:['Rama','Mapuche','Quechua'],c:0,x:'El pueblo Rama es uno de los pueblos indígenas del Caribe Sur.'},{q:'¿Qué ingrediente es característico del rondón caribeño?',a:['Leche de coco','Chocolate','Uvas'],c:0,x:'La leche de coco es uno de los ingredientes característicos del rondón.'}];let i=0,points=0,done=false;const q=document.getElementById('question'),ans=document.getElementById('answers'),fb=document.getElementById('feedback'),n=document.getElementById('next');function draw(){done=false;document.getElementById('counter').textContent=`PREGUNTA ${i+1} DE ${qs.length}`;document.getElementById('score').textContent='Puntos: '+points;q.textContent=qs[i].q;fb.textContent='';n.style.display='none';ans.innerHTML='';qs[i].a.forEach((v,j)=>{let b=document.createElement('button');b.textContent=v;b.onclick=()=>{if(done)return;done=true;if(j===qs[i].c)points++;document.getElementById('score').textContent='Puntos: '+points;fb.textContent=(j===qs[i].c?'¡Correcto! ':'No exactamente. ')+qs[i].x;[...ans.children].forEach((x,k)=>{x.disabled=true;if(k===qs[i].c)x.style.background='#e1efdf'});n.textContent=i===qs.length-1?'VER RESULTADO':'SIGUIENTE →';n.style.display='inline-block'};ans.appendChild(b)})}n.onclick=()=>{if(i<qs.length-1){i++;draw()}else{q.textContent='¡Terminaste la trivia!';ans.innerHTML='';fb.textContent=`Tu puntuación: ${points} de ${qs.length}. ¡Gracias por aprender sobre el Caribe!`;n.textContent='VOLVER A JUGAR';n.onclick=()=>{i=0;points=0;n.onclick=advance;draw()}}};function advance(){if(i<qs.length-1){i++;draw()}else{q.textContent='¡Terminaste la trivia!';ans.innerHTML='';fb.textContent=`Tu puntuación: ${points} de ${qs.length}.`;n.textContent='VOLVER A JUGAR';n.onclick=()=>{i=0;points=0;n.onclick=advance;draw()}}}draw();
+const menu = document.getElementById("menu");
+const nav = document.getElementById("nav");
+
+menu.addEventListener("click", function() {
+  nav.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav a").forEach(function(link) {
+  link.addEventListener("click", function() {
+    nav.classList.remove("active");
+  });
+});
+
+/* CUESTIONARIO */
+
+const preguntas = [
+  {
+    pregunta: "1. ¿Cuál es la cabecera de la Costa Caribe Sur?",
+    respuestas: ["A. Bluefields", "B. Managua", "C. León"],
+    correcta: 0
+  },
+  {
+    pregunta: "2. ¿En qué año se aprobó el Estatuto de Autonomía?",
+    respuestas: ["A. 1979", "B. 1987", "C. 1995"],
+    correcta: 1
+  },
+  {
+    pregunta: "3. ¿Cuál de estos pueblos forma parte de la diversidad cultural caribeña?",
+    respuestas: ["A. Miskitu", "B. Inca", "C. Azteca"],
+    correcta: 0
+  },
+  {
+    pregunta: "4. ¿Qué ingrediente es característico de muchos platos caribeños?",
+    respuestas: ["A. Leche de coco", "B. Chocolate", "C. Manzana"],
+    correcta: 0
+  },
+  {
+    pregunta: "5. ¿Qué debemos hacer para proteger nuestro patrimonio?",
+    respuestas: ["A. Dañar los bosques", "B. Respetar la cultura y cuidar la naturaleza", "C. Contaminar los ríos"],
+    correcta: 1
+  }
+];
+
+let numeroPregunta = 0;
+let puntuacion = 0;
+let contestada = false;
+
+function cargarPregunta() {
+  contestada = false;
+
+  const actual = preguntas[numeroPregunta];
+
+  document.getElementById("pregunta").textContent = actual.pregunta;
+
+  const contenedor = document.getElementById("respuestas");
+  contenedor.innerHTML = "";
+
+  actual.respuestas.forEach(function(respuesta, indice) {
+    const boton = document.createElement("button");
+
+    boton.textContent = respuesta;
+
+    boton.addEventListener("click", function() {
+      responder(indice);
+    });
+
+    contenedor.appendChild(boton);
+  });
+
+  document.getElementById("resultado").textContent = "";
+  document.getElementById("siguiente").style.display = "none";
+}
+
+function responder(indice) {
+  if (contestada) return;
+
+  contestada = true;
+
+  const actual = preguntas[numeroPregunta];
+  const botones = document.querySelectorAll("#respuestas button");
+
+  if (indice === actual.correcta) {
+    puntuacion++;
+    document.getElementById("resultado").textContent =
+      "¡Correcto! Muy bien.";
+  } else {
+    document.getElementById("resultado").textContent =
+      "Respuesta incorrecta. La respuesta correcta es: " +
+      actual.respuestas[actual.correcta];
+  }
+
+  botones.forEach(function(boton) {
+    boton.disabled = true;
+  });
+
+  document.getElementById("siguiente").style.display = "inline-block";
+
+  if (numeroPregunta === preguntas.length - 1) {
+    document.getElementById("siguiente").textContent = "VER RESULTADO";
+  }
+}
+
+function siguientePregunta() {
+  if (numeroPregunta < preguntas.length - 1) {
+    numeroPregunta++;
+    cargarPregunta();
+  } else {
+    mostrarResultado();
+  }
+}
+
+function mostrarResultado() {
+  document.getElementById("pregunta").textContent =
+    "¡Has terminado el cuestionario!";
+
+  document.getElementById("respuestas").innerHTML = "";
+
+  document.getElementById("resultado").textContent =
+    "Tu puntuación fue de " + puntuacion + " de " +
+    preguntas.length + " respuestas correctas.";
+
+  const boton = document.getElementById("siguiente");
+  boton.textContent = "VOLVER A INTENTAR";
+  boton.onclick = reiniciar;
+}
+
+function reiniciar() {
+  numeroPregunta = 0;
+  puntuacion = 0;
+
+  const boton = document.getElementById("siguiente");
+  boton.textContent = "SIGUIENTE PREGUNTA";
+  boton.onclick = siguientePregunta;
+
+  cargarPregunta();
+}
+
+</script>
+
+</body>
+</html>
